@@ -1,0 +1,45 @@
+# Ignore config or secrets
+config.py
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+reporting-env/
+
+# Ignore common virtual environment names
+venv/
+env/
+*/.venv/
+
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Windows hidden files
+$RECYCLE.BIN/
+*.lnk
+
+# VS Code workspace
+*.code-workspace
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.~*
+
+# Office auto-save / backup files
+~$*.xls*
+~$*.doc*
+~$*.ppt*
